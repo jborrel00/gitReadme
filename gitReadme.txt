@@ -21,4 +21,11 @@ now you’re working on a specific project, let’s call it test. test  is in yo
 
 now you’ve sent test.py to your github repository test. to check, go to github and look at your repos.
 
-for subsequent changes, just push new commits to that repo.
+for subsequent changes, just push new commits to that repo. that is done by the following:
+(*this is all must happen within the active directory)
+
+>git add .
+>git commit -m 'whatever notes you wanted to put here'
+>git push origin master
+
+the updated file(s) will be send to github and the changes will be tracked
