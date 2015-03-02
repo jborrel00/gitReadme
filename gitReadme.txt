@@ -7,7 +7,7 @@ first you need to make a github repository, this can be done from the terminal w
 
 where USER is your github username and REPO is the name of the repository you want to create
 
-now your repo exists at http://github.com/USER/REPO
+now your repo exists at https://github.com/USER/REPO
 
 2.
 now you’re working on a specific project, let’s call it test. test  is in your Documents directory (Documents/test). in test you’re making a program called test.py. Make test.py in test and then set up the git in test
@@ -15,7 +15,7 @@ now you’re working on a specific project, let’s call it test. test  is in yo
 >git init
 >git add .
 >git commit -m ‘First commit’
->git remote add origin http://github.com/USER/REPO #you set this up beforehand (see part 1.)
+>git remote add origin https://github.com/USER/REPO #you set this up beforehand (see part 1.)
 >git remote -v
 >git push origin master
 
