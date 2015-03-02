@@ -1,0 +1,30 @@
+this is a specific walkthrough of how to use git using this gitReadme repo as an example. this repo, its additions and changes were set up in the following way:
+
+*this walthrough assumes that you have already set up a github account and have installed git (and neccessary dependancies) on your computer
+
+to set up the gitReadme repo:
+-open terminal
+>curl -u 'MSIT-RPC' https://api.github.com/user/repos -d '{"name":"gitReadme"}'
+-username: MSIT-RPC, repo: gitReadme
+-the repo now exists at https://github.com/MSIT-RPC/gitReadme
+
+to make the gitReadme file(s):
+*working in directory Documents/git/gitReadme
+>nano gitReadme.txt
+-write gitReadme.txt
+>git init
+>git add .
+>git commit -m 'First commit'
+>git remote add origin https://github.com/MSIT-RPC/gitReadme
+>git remote -v
+>git push origin master
+-gitReadme.txt is now in the repo gitReadme
+-for subsequent changes, you can edit the file locally and then push it to the repo
+>nano gitReadme.txt
+-edit gitReadme.txt
+>git add .
+>git commit -m 'subsequent commit message'
+>git push origin master
+-the new version of gitReadme.txt is now on the repo
+-for any subsequent changes, you need only follow add, commit, push
+
